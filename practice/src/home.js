@@ -147,7 +147,7 @@ const Home = ({detail, view, close, setClose, addtocart}) => {
                 <div className='detail'>
                   <p>{curElm.Cat}</p>
                   <h3>{curElm.Title}</h3>
-                  <h4>${curElm.Price}</h4>
+                  <h4>Rs {curElm.Price}</h4>
                 </div>
               </div>
             )
@@ -160,7 +160,7 @@ const Home = ({detail, view, close, setClose, addtocart}) => {
       <div className='detail'>
         <h4>LATEST TECHNOLOGY ADDED</h4>
         <h3>Apple iPad 10.2 9th Gen - 2021</h3>
-        <p>$ 986</p>
+        <p>Rs 986</p>
         <Link to='/product' className='link'>Shop Now  <BsArrowRight /></Link>
       </div>
       <div className='img_box'>

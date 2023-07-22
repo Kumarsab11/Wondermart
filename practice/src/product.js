@@ -60,11 +60,11 @@ const Product = ({product, setProduct, detail, view, close, setClose, addtocart}
                     <h3>categories</h3>
                     <ul>
                     <li onClick={() => AllProducts ()}>All Products</li>
-                        <li onClick={() => filtterproduct ("Tablet")}>Tablet</li>
-                        <li onClick={() => filtterproduct ("Smart Watch")}>Smart Watch</li>
-                        <li onClick={() => filtterproduct ("Headphone")}>Headphone</li>
-                        <li onClick={() => filtterproduct ("Camera")}>Camera</li>
-                        <li onClick={() => filtterproduct ("Gaming")}>Gaming</li>
+                        <li onClick={() => filtterproduct ("Tablet")}>Men's wear</li>
+                        <li onClick={() => filtterproduct ("Smart Watch")}>Women's wear</li>
+                        <li onClick={() => filtterproduct ("Headphone")}>Kid's Wear</li>
+                        <li onClick={() => filtterproduct ("Camera")}>Shoes</li>
+                        <li onClick={() => filtterproduct ("Gaming")}>Beauty</li>
                     </ul>
                 </div>
             </div>
@@ -92,7 +92,7 @@ const Product = ({product, setProduct, detail, view, close, setClose, addtocart}
                                         <div className='detail'>
                                           <p>{curElm.Cat}</p>
                                           <h3>{curElm.Title}</h3>
-                                          <h4>${curElm.Price}</h4>
+                                          <h4>Rs {curElm.Price}</h4>
                                         </div>
                                       </div>
                                 </>

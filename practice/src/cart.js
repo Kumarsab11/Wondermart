@@ -67,13 +67,13 @@ const Cart = ({cart, setCart}) => {
                                 <div className='info'>
                                 <h4>{curElm.Cat}</h4>
                                 <h3>{curElm.Title}</h3>
-                                <p>Price: ${curElm.Price}</p>
+                                <p>Price: Rs {curElm.Price}</p>
                                 <div className='qty'>
                                     <button className='incqty' onClick={() => incqty(curElm)}>+</button>
                                     <input type='text' value={curElm.qty}></input>
                                     <button className='decqty' onClick={() => decqty(curElm)}>-</button>
                                 </div>
-                                <h4 className='subtotal'>sub total: ${curElm.Price * curElm.qty}</h4>
+                                <h4 className='subtotal'>sub total: Rs {curElm.Price * curElm.qty}</h4>
                                 </div>
                                 <div className='close'>
                                 <button onClick={() => removeproduct(curElm)}><AiOutlineClose /></button>
@@ -87,7 +87,7 @@ const Cart = ({cart, setCart}) => {
         {
             cart.length > 0 &&
             <>
-            <h2 className='totalprice'>total: $ {Totalprice}</h2>
+            <h2 className='totalprice'>total: Rs {Totalprice}</h2>
             <button className='checkout'>Checkout</button>
             </>
         }

@@ -17,6 +17,7 @@
     color: #f3b123;
     font-size: 32px;
 }
+
 .free p
 {
     margin-left: 10px;
@@ -25,17 +26,20 @@
     font-size: 14px;
     font-weight: 600;
 }
+
 .main_header
 {
     padding: 30px 40px;
     width: 100%;
     border-bottom: 1px solid #010f1c;
 }
+
 .main_header .container
 {
     display: flex;
     justify-content: space-between;
 }
+
 .main_header .container .search_box
 {
     margin-right: 30px;

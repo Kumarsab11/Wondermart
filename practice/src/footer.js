@@ -14,7 +14,8 @@ const Footer = () => {
                     <img src='./img/logo.svg' alt='logo'></img>
                 </div>
                 <div className='detail'>
-                    <p>We are a team of designers and developers that create high quality WordPress</p>
+                    <p>Thanks for shopping from our site.</p>
+                    <p>Hope this site is better.</p>
                     <div className='icon'>
                         <li><RiFacebookFill /></li>
                         <li><AiOutlineInstagram /></li>
@@ -24,13 +25,13 @@ const Footer = () => {
                 </div>
             </div>
             <div className='account'>
-                <h3>My Account</h3>
+                <h3>Our Team</h3>
                 <ul>
-                    <li>Account</li>
-                    <li>Order</li>
-                    <li>Cart</li>
-                    <li>shipping</li>
-                    <li>return</li>
+                    <li>Amit Kumar</li>
+                    <li>Himanshu Kumar</li>
+                    <li>Pradosh Pradhan</li>
+                    <li>Rajib Lochana Bisoyi</li>
+                    <li>Sai Chandan Majhi</li>
                 </ul>
             </div>
             <div className='page'>
@@ -39,7 +40,7 @@ const Footer = () => {
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact</li>
-                    <li>Terma & Condition</li>
+                    <li>Terms & Conditions</li>
                 </ul>
             </div>
         </div>

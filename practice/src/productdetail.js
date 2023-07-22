@@ -2,10 +2,10 @@ const Productdetail =
 [
     {
         id:1,
-        Title:"Galaxy Tab S6 Lite 10.4-inch Android Tablet 128GB.",
-        Cat: 'Tablet',
-        Price: '723',
-        Img: './img/tp1.jpg'
+        Title:"T-Shirt",
+        Cat: 'Men Wear',
+        Price: '50',
+        Img: './img/7.jpeg'
     },
     {
         id:2,
