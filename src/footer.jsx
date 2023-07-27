@@ -56,12 +56,12 @@ const Footer = () => {
               <br></br>
               <br></br>
               <br></br>
-              <h6><pre>        WONDRMART Inc.<br></br>
-                  c/o WONDRMART Inc. Copyright Agent<br></br>
-                  5900 Balcones Drive STE 100<br></br>
-                  Austin, TX 78731 USA<br></br>
-                  Phone: 925-726-3596<br></br>
-                  Email: info@WONDRMART.com<br></br></pre></h6>
+              <h6><pre>      WONDRMART Inc.<br></br>
+                WONDRMART Inc. Copyright Agent<br></br>
+                5900 Balcones Drive STE 100<br></br>
+                Austin, TX 78731 USA<br></br>
+                Phone: 925-726-3596<br></br>
+                Email: info@WONDRMART.com<br></br></pre></h6>
             </ul>
           </div>
         </div>

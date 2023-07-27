@@ -145,3 +145,14 @@
     border-radius: 8px;
     box-shadow: 10px 10px 5px green;
 }
+@media screen and (width>0px) {
+    .main_header{
+        width: 2490px;
+    }
+    .free{
+        width: 2490px;
+    }
+    .header{
+        width: 2490px;
+    }
+}

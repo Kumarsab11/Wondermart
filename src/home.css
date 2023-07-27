@@ -346,3 +346,17 @@
   background: #0989ff;
   color: #fff;
 }
+@media screen and (width>0px){
+  .top_banner{
+    width: 2490px;
+  }
+  .product_type{
+    width: 2490px;
+  }
+  .about{
+    width: 2490px;
+  }
+  .product{
+    width: 2490px;
+  }
+}

@@ -125,3 +125,8 @@
 .page  pre{
   color: red;
 }
+@media screen and (width>0px){
+  .footer{
+    width: 2490px;
+  }
+}

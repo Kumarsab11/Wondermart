@@ -161,3 +161,8 @@
     background: #0989ff;
     cursor: pointer;
 }
+@media screen and (width > 0px){
+    .cartcontainer{
+        width: 2490px;
+    }
+}
