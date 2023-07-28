@@ -1,32 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *
 {
     margin: 0;
-    padding: 0;
+    padding: 0% 2%;
     font-family: sans-serif;
     box-sizing: border-box;
+    /* margin-top: 50vh; */
 }
 .free
 {
+    position: fixed;
     padding: 10px 30px;
     width: 100%;
-    background: green;
+    background: black;
     display: flex;
+    overflow: hidden;
+    margin-top: 700px;
+    z-index: 1;
+    height: 100px;
 }
 .free .icon
 {
-    color: black;
+    color: white;
     font-size: 32px;
+    margin-left: 5px;
+    animation: typing 3s steps(50) infinite;
+    position: relative;
 }
 
-.free p
+.free span
 {
     margin-left: 10px;
     color: #f6f7f9;
-    margin-top: 8px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
 }
 
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+ @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
 .main_header
 {
     padding: 30px 40px;
@@ -147,12 +186,12 @@
 }
 @media screen and (width>0px) {
     .main_header{
-        width: 2490px;
+        width: 1515px;
     }
     .free{
-        width: 2490px;
+        width: 1515px;
     }
     .header{
-        width: 2490px;
+        width: 1515px;
     }
 }

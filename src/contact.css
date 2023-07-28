@@ -71,3 +71,8 @@
     color: #fff;
     cursor: pointer;
 }
+@media screen and (width > 0px){
+    .cartcontainer{
+        width: 1515px;
+    }
+}

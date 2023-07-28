@@ -18,7 +18,9 @@ const Nav = ({ searchbtn }) => {
         <div className="icon">
           <FaTruckMoving />
         </div>
-        <p>FREE Shipping when shopping upto $1000</p>
+        <div className="dyanamic-txts">
+        <span>FREE Shipping when shopping upto $1000</span>
+        </div>
       </div>
       <div className="main_header">
         <div className="container">
