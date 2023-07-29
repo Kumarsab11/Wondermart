@@ -8,7 +8,7 @@ Some of the ScreenShot of the Website are given below...
 OUTPUT:
 
 Landing Page --->
-![Screenshot (13)](https://github.com/pradosh27/Design_Dyanamos/assets/138751643/cb5d283f-9119-4fb5-a3d7-4d1bfb3f3a0f)
+![Screenshot (46)](https://github.com/pradosh27/Design_Dyanamos/assets/138751580/7d05cde7-648e-4ed1-bb5c-0aff43eb1d99)
 
 Footer --->
 ![Screenshot (12)](https://github.com/pradosh27/Design_Dyanamos/assets/138751643/3159ac9b-ce22-4480-86d5-e8e75b8242b4)
