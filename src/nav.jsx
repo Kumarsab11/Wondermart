@@ -78,7 +78,7 @@ const Nav = ({ searchbtn }) => {
               </li>
               <li>
                 <Link to="/contact" className="link">
-                  contact
+                  Contact
                 </Link>
               </li>
             </ul>

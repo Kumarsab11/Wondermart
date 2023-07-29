@@ -46,7 +46,7 @@
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
@@ -139,6 +139,7 @@
     width: 100%;
     padding: 20px 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #000;
 }
 .header .container
 {
@@ -152,18 +153,31 @@
 }
 .header .container .nav ul li
 {
-    margin-left: 20px;
+    margin-left: 40px;
     list-style: none;
 }
 .header .container .nav ul li .link
 {
     text-decoration: none;
-    color: #010f1c;
-    transition: 0.5s;
+    color: hsl(0, 0%, 28%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.header .container .nav ul li .link:hover:nth-child(1)
+{
+    margin-right: 15px;
+}
+.header .container .nav ul li .link:hover:nth-child(2)
+{
+    margin-left: 35px;
 }
 .header .container .nav ul li .link:hover
 {
-    color: #0989ff;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 .header .container .auth
 {
