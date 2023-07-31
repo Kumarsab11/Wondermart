@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+}
+.title h2{
+    font-family: Papyrus;
+    color: blue;
+}
+.body pre{
+    margin-top: 16px;
+    text-align: center;
+}

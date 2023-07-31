@@ -102,18 +102,20 @@
 .footer .container .page ul {
   margin-top: 10px;
   margin-left: 20px;
+  text-decoration: none;
 }
-.footer .container .page ul link {
+.footer .container .page .link {
   margin-top: 5px;
   color: #010f1c;
-  font-size: 14px;
+  font-size: 15px;
   transition: 0.5s;
   cursor: pointer;
   text-decoration: none;
+  margin-left: 10px;
 }
-.footer .container .page ul link:hover {
+.footer .container .page .link:hover {
   color: #0989ff;
-  
+  text-decoration: underline;
 }
 .footer .container .about .logo img{
   border-radius: 8px;

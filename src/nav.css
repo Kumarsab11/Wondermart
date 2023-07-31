@@ -66,73 +66,39 @@
       left: 0;
     }
   }
-.main_header
-{
-    padding: 30px 40px;
-    width: 100%;
-    background-image: linear-gradient(180deg,#bdc3c7 , #2c3e50);
-}
-
-.main_header .container
+.icon
 {
     display: flex;
-    justify-content: space-between;
+    margin-right: 10px;
 }
-
-.main_header .container .search_box
-{
-    margin-right: 30px;
-}
-.main_header .container .search_box input
-{
-    outline: none;
-    padding: 10px 30px;
-    border: 3px solid #0989ff;
-    width: 300px;
-    color: #010f1c;
-}
-.main_header .container .search_box button
-{
-    border: 3px solid #0989ff;
-    outline: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    background: #0989ff;
-    color: #ecf2f7;
-}
-.main_header .container .icon
+.icon .account
 {
     display: flex;
-    margin-right: 50px;
+    margin-right: 10px;
 }
-.main_header .container .icon .account
-{
-    display: flex;
-    margin-right: 30px;
-}
-.main_header .container .icon .account .user_icon
+ .icon .account .user_icon
 {
     margin-right: 10px;
     font-size: 22px;
     color: #010f1c;
     cursor: pointer;
 }
-.main_header .container .icon .account p
+ .icon .account p
 {
-    margin-right: 5px;
     margin-top: 2px;
-    color: #010f1c;
+    color: white;
+    margin-left: 400px;
 }
-.main_header .container .icon .second_icon
+ .icon .second_icon
 {
     display: flex;
 }
-.main_header .container .icon .second_icon .link
+ .second_icon .Link
 {
-    margin-right: 5px;
     font-size: 22px;
     cursor: pointer;
-    color: blue;
+    color: white;
+    margin-left: 200px;
 }
 .header
 {
@@ -181,19 +147,20 @@
 }
 .header .container .auth
 {
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 22px;
     cursor: pointer;
 }
 .header .container .auth button
 {
-    margin-right: 20px;
+    margin-right: 18px;
     font-size: 22px;
     cursor: pointer;
     outline: none;
     border: none;
     background: none;
     color: #fff;
+    margin-top: 2px;
 }
 .logo img{
     border-radius: 8px;

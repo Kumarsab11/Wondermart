@@ -9,8 +9,10 @@ import { AiOutlineShoppingCart, AiOutlineCloseCircle } from "react-icons/ai";
 import { BsEye } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
 import Homeproduct from "./homeproduct";
+// import Productdetail from "./productdetail";
 import "./home.css";
-const Home = ({ detail, view, close, setClose, addtocart }) => {
+// import { filterProps } from "@mantine/core";
+function Home({ detail, view, close, setClose, addtocart}) {
   return (
     <>
       {close ? (
@@ -47,10 +49,10 @@ const Home = ({ detail, view, close, setClose, addtocart }) => {
             </Link>
           </div>
           <div className="img_box">
-            <img src="./img/men/20.png" alt="sliderimg"></img>
-            <img src="./img/fav1.jpg" alt="sliderimg"></img>
-            <img src="./img/fav2.jpg" alt="sliderimg"></img>
-            <img src="./img/fav3.jpg" alt="sliderimg"></img>
+            <Link to="/product"><img src="./img/men/20.png" alt="sliderimg"></img></Link>
+            <Link to="/product"><img src="./img/fav1.jpg" alt="sliderimg"></img></Link>
+            <Link to="/product"><img src="./img/fav2.jpg" alt="sliderimg"></img></Link>
+            <Link to="/product"><img src="./img/fav3.jpg" alt="sliderimg"></img></Link>
           </div>
         </div>
       </div>
@@ -161,22 +163,21 @@ const Home = ({ detail, view, close, setClose, addtocart }) => {
         </div>
       </div>
       {/* <div className="banner">
-        <div className="container">
-          <div className="detail">
-            <h4>The Sale is Live</h4>
-            <h3>Get newly Launched styles of your choice</h3>
-            <p>Get Upto 70% off for the regular Members</p>
-            <Link to="/product" className="link">
-              Shop Now <BsArrowRight />
-            </Link>
-          </div>
-          <div className="img_box">
-            <img src="" alt="sliderimg"></img>
-          </div>
-        </div>
-      </div> */}
+              <div className="container">
+                <div className="detail">
+                  <h4>The Sale is Live</h4>
+                  <h3>Get newly Launched styles of your choice</h3>
+                  <p>Get Upto 70% off for the regular Members</p>
+                  <Link to="/product" className="link">
+                    Shop Now <BsArrowRight />
+                  </Link>
+                </div>
+                <div className="img_box">
+                  <img src="" alt="sliderimg"></img>
+                </div>
+              </div>
+            </div> */}
     </>
   );
-};
-
+}
 export default Home;

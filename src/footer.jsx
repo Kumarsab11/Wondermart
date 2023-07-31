@@ -40,17 +40,17 @@ const Footer = () => {
           </div>
           <div className="page">
             <h3>Pages</h3>
-            <ul>
-              <Link to = "/" className="link">Home</Link>
+            <br />
+              <Link to = "/" className="link"><b>Home</b></Link>
               <br></br>
               <br></br>
-              <Link to = "/about" className="link">About</Link>
+              <Link to = "/about" className="link"><b>About</b></Link>
               <br></br>
               <br></br>
-              <Link to = "/contact" className="link">Contact</Link>
+              <Link to = "/contact" className="link"><b>Contact</b></Link>
               <br></br>
               <br></br>
-              <Link to = "/" className="link">Terms & Conditions</Link>
+              <Link to = "/terms" className="link"><b>Terms & Conditions</b></Link>
               <br></br>
               <br></br>
               <br></br>
@@ -62,41 +62,11 @@ const Footer = () => {
                 Austin, TX 78731 USA<br></br>
                 Phone: 925-726-3596<br></br>
                 Email: info@WONDRMART.com<br></br></pre></h6>
-            </ul>
           </div>
         </div>
         <hr />
-        <div className="tag">
-          <br></br>
-          <br></br>
-          <h1>Our Team</h1><br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <div className="team">
-            <div className="fix">
-              <img src="./img/profile/amit1.jpg" alt="team1" />
-              <p>Amit Kumar</p>
-            </div>
-            <div className="fix">
-              <img src="./img/profile/himanshu.jpg" alt="team2" />
-              <p>Himanshu Kumar</p>
-            </div>
-            <div className="fix">
-              <img src="./img/profile/pradosh.jpg" alt="team3" />
-              <p>Pradosh Pradhan</p>
-            </div>
-            <div className="fix">
-              <img src="./img/profile/rajib.jpg" alt="team4" />
-              <p>Rajib Lochana Bishoyi</p>
-            </div>
-            <div className="fix">
-              <img src="./img/profile/sai.jpg" alt="team5" />
-              <p>Sai Chandan Majhi</p>
-            </div>
-          </div>
+        
         </div>
-      </div>
     </>
   );
 };
